@@ -2,20 +2,17 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "hostingPlanName": {
-      "value": "pul-qa-hostplan"
-    },
     "administratorLogin": {
-      "value": "stephen.mann"
+      "value": "" //Add value
     },
     "sqlServerName": {
-      "value": "pul-stm"
+      "value": "" //Must be unique
     },
     "databaseName": {
       "value": "partsunlimited"
     },
     "websiteName": {
-      "value": "pul-qa-stm"
+      "value": "" //Must unique and match value in release pipeline
     }
   }
 }
