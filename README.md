@@ -4,7 +4,7 @@ This ARM template is intended for uses with the Azure DevOps demo labs Parts Unl
 
 ## Step 1 ##
 
-- Download the *parameters.json* and *template.json* files.
+- Download the *parameters.json* and *template.json* files from the PartsUnlimited folder.
 
 ## Step 2 ##
 
