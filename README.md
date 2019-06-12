@@ -8,8 +8,12 @@ This ARM template is intended for uses with the Azure DevOps demo labs Parts Unl
 
 ## Step 2 ##
 
-- In the DevOps project, navigate to Repos > Files > {Project Name}/PartsUnlimited-aspnet45
-- Upload the *parameters.json* and *template.json* files to the folder.
+- Open the PartsUnlimited project in Visual Studio.
+- Create a topic branch from *master*.
+- Create a new solution folder called *deployment*.
+- Upload the *parameters.json* and *template.json* files to the *deployment* folder.
+- Push your topic branch and create a pull request.
+- Complete the pull request to merge into *master*
 
 ## Step 3 ##
 
@@ -25,7 +29,7 @@ This ARM template is intended for uses with the Azure DevOps demo labs Parts Unl
 <tbody>
 <tr>
   <td><b>Source Folder</b></td>
-  <td>PartsUnlimited-aspnet45</td>
+  <td>PartsUnlimited-aspnet45/deployment</td>
 </tr>
 <tr>
   <td><b>Contents</b></td>
@@ -37,6 +41,7 @@ This ARM template is intended for uses with the Azure DevOps demo labs Parts Unl
 </tr>
 </tbody>
 </table>
+
 - Save the pipeline.
 
 ## Step 4 ##
@@ -65,7 +70,9 @@ This ARM template is intended for uses with the Azure DevOps demo labs Parts Unl
 </tr>
 </tbody>
 </table>
+
 - In the *Azure Resource Group Deployment*, edit the Template section with the following values:
+ 
 <table>
 <thead>
 <tr>
@@ -88,4 +95,5 @@ This ARM template is intended for uses with the Azure DevOps demo labs Parts Unl
 </tr>
 </tbody>
 </table>
+
 - Complete the rest of the lab, skipping Task 3.
