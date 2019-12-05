@@ -36,7 +36,7 @@
     },
     "administratorLogin": {
       "type": "string",
-      "defaultValue": "admin"
+      "defaultValue": "admin.builtin"
     },
     "administratorLoginPassword": {
       "type": "securestring"
