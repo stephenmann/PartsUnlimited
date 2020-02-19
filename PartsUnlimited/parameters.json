@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "administratorLogin": {
-      "value": "" //Add value
+      "value": "sqlAdmin"
     },
     "sqlServerName": {
       "value": "" //Must be unique
