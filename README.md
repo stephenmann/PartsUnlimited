@@ -1,5 +1,5 @@
 # PartsUnlimited
-This ARM template is intended for uses with the Azure DevOps demo labs Parts Unlimited project, located [here](https://azuredevopslabs.com/labs/azuredevops/continuousdeployment/). Use of this template will replace Task 1 of the lab.
+This ARM template is intended for use with the Azure DevOps demo labs Parts Unlimited project, located [here](https://azuredevopslabs.com/labs/azuredevops/continuousdeployment/). Use of this template will replace Task 1 of the lab.
 
 
 ## Step 1 ##
